@@ -30,3 +30,5 @@ set expandtab ts=4 sw=4 ai
 
 " Because I'm too lazy to move my pinky to the [ESC] key
 :imap jk <Esc>
+" Because this is badass
+nnoremap ,test :read $HOME/test.txt<CR>
