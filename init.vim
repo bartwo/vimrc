@@ -1,12 +1,16 @@
 " ### PLUGIN's ###
+
 call plug#begin()
 
 Plug 'tpope/vim-surround' " Surround vim
 Plug 'airblade/vim-gitgutter' " gitgutter
+Plug 'bling/vim-airline' " airline
+Plug 'tpope/vim-fugitive' " git magic
 
 call plug#end()
 
 " ### VIM SETTINGS ###
+
 set nocompatible " No vi compatible mode any more. Because vi is OLD
 set relativenumber " Numbering
 set number " Numbering
@@ -23,5 +27,6 @@ filetype plugin indent on
 set expandtab ts=4 sw=4 ai
 
 " ### KEY REMAPS ###
+
 " Because I'm too lazy to move my pinky to the [ESC] key
-:imap jk <Esc> 
+:imap jk <Esc>
